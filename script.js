@@ -316,7 +316,6 @@ const slangDictionary = {
         "h8":"hate"
 };
 
-// DOM elements (same as before)
 const textarea = document.querySelector('textarea');
 const generateBtn = document.getElementById('generate-btn');
 const responseArea = document.getElementById('response-area');
@@ -685,6 +684,7 @@ rizzLevelSelect.addEventListener("change", ()=>{
         responseOptions.forEach(option => option.classList.add("dark-mode"));
          footers.forEach(footer=> footer.classList.add("dark-mode"));
           selects.forEach(select=> select.classList.add("dark-mode"));
+         responseArea.classList.add("dark-mode"); //Added this line
       darkModeToggle.checked = true;
     } else {
           darkModeToggle.checked = false;
@@ -699,6 +699,7 @@ darkModeToggle.addEventListener('change', () => {
     responseOptions.forEach(option => option.classList.toggle("dark-mode"));
       footers.forEach(footer=> footer.classList.toggle("dark-mode"));
        selects.forEach(select=> select.classList.toggle("dark-mode"));
+      responseArea.classList.toggle("dark-mode"); //Added this line
 
     userProfile.darkMode = darkModeToggle.checked;
     localStorage.setItem("userProfile", JSON.stringify(userProfile));
