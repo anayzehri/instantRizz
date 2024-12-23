@@ -22,33 +22,31 @@ header {
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, color 0.3s ease;
-     display: flex; /* Make header flexible */
+    display: flex;
     justify-content: center;
-     align-items: center; /* Center content vertically */
+    align-items: center;
     gap: 10px;
 
 }
 
 header.dark-mode {
     background-color: #343434;
-     color: #f9f9f9;
+    color: #f9f9f9;
 }
 
 .logo {
-    font-size: 2em; /* Adjust size */
-    margin-right: 5px; /* Add space between logo and text */
+    font-size: 2em;
+    margin-right: 5px;
     line-height: 1;
-     font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-
 
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700; /* Making the heading more bold */
-    letter-spacing: 1px; /*Spacing out text a bit */
+    font-weight: 700;
+    letter-spacing: 1px;
     line-height: 1;
 }
-
 
 main {
     flex: 1;
@@ -63,6 +61,12 @@ main {
     max-width: 600px;
     margin-bottom: 1.5rem;
     text-align: center;
+}
+#response-area{
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+#response-area.dark-mode{
+    background-color: #343434;
 }
 
 textarea {
