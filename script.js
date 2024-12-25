@@ -2182,6 +2182,892 @@ const dataset = {
                 {"text": "I am always looking for new experiences and to learn from every single one of them.","score": 0.69, "tags":["subtle"]}
              ]
       },
+        {
+        "input":"what do you think is more important, passion or practicality?",
+         "responses":[
+           {"text":"Passion, specially the passion that I feel for you 😉.","score": 0.88, "tags":["flirty"]},
+            {"text":"I think that it is important to find a balance between the two, for a good life.","score": 0.71, "tags":["casual"]},
+            {"text":"I tend to value the importance of making practical decisions that will benefit you long term.","score": 0.69, "tags":["subtle"]}
+           ]
+        },
+       {
+          "input":"what's your favorite way to spend a lazy Sunday?",
+           "responses":[
+             {"text":"Cuddling up with you on the couch, watching a movie.","score": 0.9, "tags":["flirty"]},
+            {"text":"I tend to enjoy spending some time in nature and getting a breath of fresh air.","score": 0.7, "tags":["casual"]},
+             {"text": "I value the opportunity to have some time for myself and to recharge for the week ahead.","score": 0.69, "tags":["subtle"]}
+            ]
+       },
+      {
+        "input": "what do you think about the concept of 'fate'?",
+         "responses":[
+           {"text":"I believe that we were meant to meet 😉.","score": 0.88, "tags":["flirty"]},
+           {"text":"It is an interesting concept to think about, but I am more focused on the things that I can control.","score": 0.7, "tags":["casual"]},
+           {"text": "I think that it is about balance, and that some things may be predetermined, but you should always try your best.","score": 0.67, "tags":["subtle"]}
+          ]
+    },
+   {
+        "input":"what do you think of surprises?",
+         "responses":[
+            {"text":"I am always open for a surprise, as long as it is with you 😉.","score": 0.88, "tags":["flirty"]},
+           {"text":"I enjoy surprises that are thoughtful and well planned.","score": 0.7, "tags":["casual"]},
+            {"text": "I tend to enjoy more structured activities, but I am always open to new experiences.","score": 0.68, "tags":["subtle"]}
+           ]
+    },
+      {
+         "input": "what do you think is the most beautiful thing in the world?",
+           "responses":[
+            {"text":"Your soul, your heart, everything about you.","score": 0.9, "tags":["flirty"]},
+              {"text":"I tend to find acts of kindness to be beautiful.","score": 0.71, "tags":["casual"]},
+            {"text":"I believe beauty is in everything, you just need to look for it and to cherish it.","score": 0.69, "tags":["subtle"]}
+            ]
+      },
+      {
+           "input":"what's a hobby that brings you a lot of joy?",
+           "responses":[
+             {"text":"Flirting with you, every single moment.","score": 0.88, "tags":["flirty"]},
+             {"text":"I enjoy playing musical instruments and exploring different sounds.","score": 0.7, "tags":["casual"]},
+           {"text":"I think it is good to have hobbies that challenge your brain and that are creative.","score": 0.67, "tags":["subtle"]}
+            ]
+       },
+       {
+          "input":"what's your favorite way to help others?",
+           "responses":[
+             {"text":"By showing them as much love as I can 😉.","score": 0.88, "tags":["flirty"]},
+              {"text":"I tend to try my best to offer my help and support whenever it is needed.","score": 0.71, "tags":["casual"]},
+              {"text":"I believe that it is important to be kind and empathetic to everyone around you.","score": 0.69, "tags":["subtle"]}
+            ]
+       },
+     {
+        "input":"what do you think is the most important thing in a friendship?",
+        "responses":[
+            {"text":"Being with you and falling in love with you 😉.","score": 0.89, "tags":["flirty"]},
+          {"text":"I believe it is about being reliable and trustworthy, and to be there for one another.","score": 0.71, "tags":["casual"]},
+            {"text":"I think that honesty and good communication are the keys to a good friendship.","score": 0.68, "tags":["subtle"]}
+          ]
+    },
+      {
+         "input":"what do you think of living in the city?",
+          "responses":[
+            {"text":"I'd prefer to be with you, anywhere.","score": 0.88, "tags":["flirty"]},
+             {"text":"I think it is great to be connected and close to many opportunities and experiences.","score": 0.7, "tags":["casual"]},
+           {"text":"I tend to value the calmness of nature more, but I think that cities also provide a great energy.","score": 0.69, "tags":["subtle"]}
+           ]
+       },
+      {
+         "input":"what's your favorite type of clothing?",
+          "responses":[
+            {"text":"The one that makes you want me more.","score": 0.89, "tags":["flirty"]},
+             {"text":"I tend to prefer clothes that are comfortable and that allow me to express myself.","score": 0.71, "tags":["casual"]},
+            {"text":"I think that clothing is a way to express yourself and to feel good with your body.","score": 0.68, "tags":["subtle"]}
+            ]
+       },
+       {
+           "input":"what's a quality that makes someone truly special?",
+            "responses":[
+                {"text":"Your heart, your soul, everything about you makes you special.","score": 0.9, "tags":["flirty"]},
+               {"text":"I think that it is about being genuine and honest with others.","score": 0.7, "tags":["casual"]},
+                {"text": "I think that having a kind heart and always helping others is what makes someone special.","score": 0.69, "tags":["subtle"]}
+             ]
+       },
+     {
+          "input":"what do you think of the universe?",
+           "responses":[
+             {"text":"It's as vast as my love for you.","score": 0.89, "tags":["flirty"]},
+               {"text": "I find the universe to be mysterious and fascinating at the same time.","score": 0.71, "tags":["casual"]},
+              {"text": "I think that it is a reminder of our small role in the vastness of existence.","score": 0.69, "tags":["subtle"]}
+            ]
+       },
+     {
+          "input":"what's your favorite thing about being alive?",
+            "responses":[
+              {"text":"The possibility of meeting you and falling in love with you.","score": 0.9, "tags":["flirty"]},
+             {"text":"I think that life is a gift and we should cherish every single moment.","score": 0.71, "tags":["casual"]},
+               {"text": "I believe that it is about learning, growing and cherishing every experience.","score": 0.68, "tags":["subtle"]}
+             ]
+     },
+     {
+       "input":"what do you like to do when it's cold outside?",
+        "responses":[
+         {"text":"Stay inside with you, cuddling by the fire 😉.","score": 0.9, "tags":["flirty"]},
+         {"text":"I tend to enjoy reading and spending time indoors, with a warm drink.","score": 0.7, "tags":["casual"]},
+           {"text":"I believe that it is good to find activities that make you feel comfortable and cozy during those cold days.","score": 0.68, "tags":["subtle"]}
+         ]
+     },
+        {
+           "input":"what do you think is more important, the past or the future?",
+           "responses":[
+                {"text":"The future with you, always.","score": 0.9, "tags":["flirty"]},
+               {"text": "I think that both are important, and they influence each other.","score": 0.7, "tags":["casual"]},
+                {"text":"I tend to believe that you should learn from your past, but you should be looking towards the future.","score": 0.69, "tags":["subtle"]}
+             ]
+       },
+      {
+          "input": "what's your favorite type of scenery?",
+           "responses":[
+              {"text":"You. You are my favorite view 😉.","score": 0.89, "tags":["flirty"]},
+              {"text":"I enjoy being in nature and surrounded by the mountains and trees.","score": 0.7, "tags":["casual"]},
+              {"text":"I think it is important to connect with nature and to embrace the beauty that it has.","score": 0.69, "tags":["subtle"]}
+            ]
+      },
+      {
+        "input":"what's your favorite thing to do in your free time?",
+        "responses":[
+             {"text":"Think about you.","score": 0.88, "tags":["flirty"]},
+           {"text":"I tend to do some reading, or listen to a podcast.","score": 0.7, "tags":["casual"]},
+           {"text": "I think it is important to have hobbies that allow you to relax and recharge.","score": 0.67, "tags":["subtle"]}
+          ]
+       },
+      {
+        "input":"what do you think of coincidences?",
+          "responses":[
+            {"text":"That our meeting wasn't a coincidence.","score": 0.89, "tags":["flirty"]},
+           {"text":"I think that they can be interesting, but you should be focused on making your own destiny.","score": 0.71, "tags":["casual"]},
+            {"text":"I believe that you should always value every opportunity, and not see it as a coincidence.","score": 0.68, "tags":["subtle"]}
+           ]
+        },
+     {
+           "input":"what do you think of philosophy?",
+            "responses":[
+               {"text":"I like the idea of trying to understand our love.","score": 0.87, "tags":["flirty"]},
+               {"text":"I find philosophical questions to be very interesting.","score": 0.7, "tags":["casual"]},
+              {"text":"I think it is good to think critically and to explore the deeper questions in life.","score": 0.69, "tags":["subtle"]}
+            ]
+      },
+      {
+        "input":"what's your favorite way to show someone that you care?",
+          "responses":[
+            {"text":"By making you feel as loved as I feel for you.","score": 0.88, "tags":["flirty"]},
+              {"text":"I tend to show my appreciation through my actions and my support.","score": 0.71, "tags":["casual"]},
+            {"text":"I believe that a good action is better than a thousand words, so I always try to show it through action.","score": 0.68, "tags":["subtle"]}
+            ]
+      },
+     {
+          "input":"what do you think is the secret to having a long lasting relationship?",
+           "responses":[
+               {"text":"Having someone like you by my side.","score": 0.88, "tags":["flirty"]},
+              {"text": "I believe that it is about creating a strong bond and to communicate well.","score": 0.7, "tags":["casual"]},
+             {"text":"I think that it is important to be honest and supportive of one another.","score": 0.69, "tags":["subtle"]}
+            ]
+        },
+        {
+            "input": "what is your favorite type of conversation?",
+             "responses":[
+               {"text":"The one we are having right now 😉.","score": 0.9, "tags":["flirty"]},
+              {"text": "I tend to enjoy conversation that are engaging and that are able to make you learn something new.","score": 0.7, "tags":["casual"]},
+              {"text":"I believe that conversations should help you grow and learn more from others.","score": 0.69, "tags":["subtle"]}
+              ]
+        },
+      {
+           "input":"what do you think of art?",
+            "responses":[
+              {"text":"It is as beautiful as your soul.","score": 0.88, "tags":["flirty"]},
+                {"text":"I appreciate creativity and the new perspective that it provides.","score": 0.7, "tags":["casual"]},
+                 {"text":"I am fascinated by the emotional connection that art can create.","score": 0.69, "tags":["subtle"]}
+            ]
+        },
+     {
+        "input":"what's something that you're passionate about?",
+        "responses":[
+            {"text":"You. You make me feel alive.","score": 0.9, "tags":["flirty"]},
+            {"text":"I am passionate about learning and exploring new ideas.","score": 0.7, "tags":["casual"]},
+             {"text":"I tend to be passionate about helping others and about creating a better future.","score": 0.69, "tags":["subtle"]}
+          ]
+      },
+      {
+          "input":"what's your favorite way to wind down before bed?",
+           "responses":[
+              {"text":"Dreaming about you 😉.","score": 0.87, "tags":["flirty"]},
+               {"text": "I usually read a book and try to calm my mind before going to sleep.","score": 0.71, "tags":["casual"]},
+             {"text":"I think that it is important to have a healthy routine and good sleep habits.","score": 0.69, "tags":["subtle"]}
+           ]
+       },
+       {
+            "input":"what's a place you'd like to visit?",
+            "responses":[
+                 {"text":"Anywhere with you is my favorite place in the world.","score": 0.9, "tags":["flirty"]},
+               {"text": "I tend to enjoy natural landscapes and historical locations.","score": 0.71, "tags":["casual"]},
+               {"text": "I believe that it's good to explore and to find new experiences that are capable of enriching your life.","score": 0.69, "tags":["subtle"]}
+              ]
+        },
+      {
+           "input":"what do you think about the importance of family?",
+            "responses":[
+                {"text":"I wish to build a family with you.","score": 0.88, "tags":["flirty"]},
+                {"text": "I believe that family is the most important bond that you will have.","score": 0.7, "tags":["casual"]},
+                 {"text":"I think that it is important to cherish your family and to always show them your love.","score": 0.68, "tags":["subtle"]}
+            ]
+       },
+        {
+           "input":"what do you think makes a good partner?",
+            "responses":[
+             {"text":"You, you have it all.","score": 0.9, "tags":["flirty"]},
+             {"text":"I believe that it is about finding someone that you have good communication with.","score": 0.71, "tags":["casual"]},
+             {"text":"I tend to think that honesty, kindness and loyalty are the keys to a good relationship.","score": 0.69, "tags":["subtle"]}
+             ]
+        },
+      {
+         "input":"what's your favorite thing to do on a Saturday?",
+          "responses":[
+            {"text":"Spending every single moment with you.","score": 0.89, "tags":["flirty"]},
+            {"text": "I usually enjoy spending some time by myself to recharge my energy.","score": 0.7, "tags":["casual"]},
+            {"text":"I think that it is good to set intentions and to plan for the week ahead.","score": 0.69, "tags":["subtle"]}
+            ]
+      },
+    {
+         "input":"what's something you're grateful for today?",
+         "responses":[
+           {"text":"Having the opportunity to talk to you again.","score": 0.9, "tags":["flirty"]},
+           {"text":"I am grateful for having good health and for being surrounded by the people that I love.","score": 0.7, "tags":["casual"]},
+            {"text":"I think that we should always be grateful for the simple things that make our life better.","score": 0.69, "tags":["subtle"]}
+           ]
+      },
+      {
+           "input":"what do you think of the concept of 'time'?",
+           "responses":[
+              {"text":"It's something I want to spend all of with you.","score": 0.88, "tags":["flirty"]},
+              {"text": "I think that time is precious, and we should always make the most of it.","score": 0.7, "tags":["casual"]},
+             {"text": "I think that the idea of time is unique and that it is a human construct that we should reflect on.","score": 0.69, "tags":["subtle"]}
+            ]
+        }, {
+        "input":"what's something you've always wanted to try?",
+         "responses":[
+             {"text":"To win your heart 😉.","score": 0.88, "tags":["flirty"]},
+             {"text": "I tend to enjoy trying new experiences that challenge my body and my mind.","score": 0.71, "tags":["casual"]},
+          {"text": "I think it is important to go out of your comfort zone and to challenge yourself whenever you can.","score": 0.69, "tags":["subtle"]}
+           ]
+     },
+    {
+        "input": "what is your favorite type of weather?",
+        "responses":[
+             {"text":"Any type of weather, if I get to spend it with you.","score": 0.89, "tags":["flirty"]},
+             {"text":"I tend to enjoy when it is warm and sunny.","score": 0.7, "tags":["casual"]},
+            {"text":"I think that it is important to appreciate and enjoy every season of the year, even if you do not prefer some.","score": 0.69, "tags":["subtle"]}
+          ]
+    },
+     {
+        "input": "what do you do to stay positive?",
+         "responses":[
+          {"text":"I think of you, that is all that I need to stay positive 😉.","score": 0.88, "tags":["flirty"]},
+          {"text":"I tend to focus on all of the good things that I have in my life.","score": 0.7, "tags":["casual"]},
+          {"text": "I believe that it is about finding ways to manage your emotions and to stay focused on the best outcomes.","score": 0.69, "tags":["subtle"]}
+          ]
+     },
+     {
+         "input": "what's your favorite way to help others?",
+          "responses":[
+              {"text":"By showing them all of the love that I have to offer.","score": 0.9, "tags":["flirty"]},
+             {"text":"I tend to listen to their problems and to try to offer guidance and support.","score": 0.71, "tags":["casual"]},
+              {"text": "I believe that you should help others without asking anything in return, it is just a good thing to do.","score": 0.68, "tags":["subtle"]}
+            ]
+     },
+       {
+        "input":"what do you like to do with your family?",
+         "responses":[
+           {"text":"I would love to build a family with you.","score": 0.9, "tags":["flirty"]},
+           {"text":"I enjoy playing games and having fun with my family.","score": 0.7, "tags":["casual"]},
+            {"text":"I believe it's important to have a good connection with your family and to make memories with them.","score": 0.69, "tags":["subtle"]}
+           ]
+       },
+    {
+          "input":"what's a small thing that always brightens your day?",
+            "responses":[
+               {"text":"Seeing a message from you, it always makes me smile.","score": 0.88, "tags":["flirty"]},
+              {"text":"I tend to enjoy the simple moments, like a good cup of coffee.","score": 0.71, "tags":["casual"]},
+               {"text":"I find it important to embrace all of the small opportunities that life gives you.","score": 0.67, "tags":["subtle"]}
+            ]
+     },
+    {
+           "input":"what's your favorite part of the day?",
+           "responses":[
+             {"text":"The moment I get to talk to you.","score": 0.9, "tags":["flirty"]},
+             {"text":"I tend to enjoy the evening, as that's when I have time for myself.","score": 0.7, "tags":["casual"]},
+              {"text": "I think that every part of the day has something unique to offer.","score": 0.68, "tags":["subtle"]}
+            ]
+     },
+     {
+        "input":"what is something that you are trying to improve?",
+         "responses":[
+           {"text":"My ability to make you fall madly in love with me 😉.","score": 0.89, "tags":["flirty"]},
+            {"text":"I am trying to become more organized and more productive.","score": 0.7, "tags":["casual"]},
+           {"text":"I think that you should always be pushing yourself to improve and to grow as a person.","score": 0.68, "tags":["subtle"]}
+          ]
+    },
+    {
+         "input": "what do you think of technology?",
+         "responses":[
+            {"text":"As long as it allows me to be closer to you 😉.","score": 0.87, "tags":["flirty"]},
+            {"text": "I believe that it is a great tool for innovation and for positive change.","score": 0.7, "tags":["casual"]},
+             {"text": "I tend to think that it should be used carefully, and not abused.","score": 0.69, "tags":["subtle"]}
+           ]
+     },
+       {
+         "input":"what is your favorite type of story?",
+         "responses":[
+          {"text":"The story of you and me, a love story for the ages.","score": 0.9, "tags":["flirty"]},
+           {"text":"I tend to enjoy stories that challenge your brain and that make you think deeply.","score": 0.71, "tags":["casual"]},
+           {"text":"I think that a good story can inspire you to be better and that they are an amazing way to connect with your emotions.","score": 0.69, "tags":["subtle"]}
+           ]
+       },
+        {
+         "input":"what do you think of small acts of kindness?",
+           "responses":[
+             {"text":"They remind me of you 😉.","score": 0.89, "tags":["flirty"]},
+             {"text":"I think they are very important, as they can have a big impact in other people's lives.","score": 0.7, "tags":["casual"]},
+               {"text":"I believe that it's important to always be kind and empathetic to other people, as that can create a better world.","score": 0.68, "tags":["subtle"]}
+            ]
+        },
+      {
+          "input":"what is your favorite thing about spring?",
+           "responses":[
+            {"text":"The possibility of spending more time with you.","score": 0.87, "tags":["flirty"]},
+            {"text":"I tend to enjoy the new life that it brings and all of the new colors.","score": 0.71, "tags":["casual"]},
+              {"text": "I believe that all seasons have something unique to offer, and that you should embrace all of the opportunities that they bring.","score": 0.69, "tags":["subtle"]}
+            ]
+      },
+     {
+        "input":"what's a goal you've already achieved that you're proud of?",
+         "responses":[
+            {"text":"Winning your heart.","score": 0.9, "tags":["flirty"]},
+             {"text":"I am always proud of myself whenever I am able to learn a new skill.","score": 0.71, "tags":["casual"]},
+           {"text":"I think it is important to always try your best, and to be grateful for all of your achievements.","score": 0.67, "tags":["subtle"]}
+           ]
+     },
+        {
+           "input":"what's something you always wanted to know about space?",
+            "responses":[
+                 {"text":"If there are other people that are as beautiful as you are 😉.","score": 0.89, "tags":["flirty"]},
+               {"text": "I would love to know more about the different planets and their characteristics.","score": 0.71, "tags":["casual"]},
+               {"text": "I tend to value the infinite complexity of space and all of the wonders that it has.","score": 0.69, "tags":["subtle"]}
+             ]
+        },
+        {
+          "input":"what do you like most about meeting new people?",
+            "responses":[
+                {"text":"The possibility of meeting you, again and again.","score": 0.89, "tags":["flirty"]},
+              {"text":"I am always open to the opportunity to learn from new people.","score": 0.71, "tags":["casual"]},
+            {"text": "I tend to value the new experiences and ideas that you can gain by meeting people that are different from you.","score": 0.68, "tags":["subtle"]}
+            ]
+      },
+     {
+       "input":"what do you think is more important, being smart or being kind?",
+       "responses":[
+         {"text":"Kindness, because that's how you have always treated me 😉.","score": 0.87, "tags":["flirty"]},
+         {"text": "I think that both are equally important and you should always try your best to be both.","score": 0.7, "tags":["casual"]},
+         {"text":"I tend to value kindness over intelligence, as it is the base for all types of human connection.","score": 0.69, "tags":["subtle"]}
+          ]
+      },
+      {
+         "input":"what's your favorite type of game to play?",
+          "responses":[
+              {"text":"The game of love 😉.","score": 0.9, "tags":["flirty"]},
+            {"text": "I enjoy games that are challenging and that make me think logically.","score": 0.71, "tags":["casual"]},
+            {"text": "I think that games are a good way to engage your brain and to have some fun.","score": 0.69, "tags":["subtle"]}
+             ]
+     },
+    {
+        "input": "what do you think about the idea of 'fate'?",
+        "responses":[
+         {"text":"I believe that it is fate that I met you.","score": 0.89, "tags":["flirty"]},
+           {"text":"I tend to believe that everything happens for a reason and that there's a plan to follow.","score": 0.7, "tags":["casual"]},
+             {"text":"I think it's an interesting topic, but I also think that our actions have a lot of influence on your destiny.","score": 0.68, "tags":["subtle"]}
+          ]
+    },
+    {
+       "input":"what do you think is the secret to a good conversation?",
+        "responses":[
+          {"text":"Being able to flirt with you 😉.","score": 0.89, "tags":["flirty"]},
+          {"text":"I think that it is about listening more than talking.","score": 0.7, "tags":["casual"]},
+           {"text":"I believe it's important to be authentic, and to let your heart guide your thoughts and actions.","score": 0.69, "tags":["subtle"]}
+          ]
+     },
+     {
+        "input":"what's your favorite type of dessert?",
+        "responses":[
+           {"text":"Anything that is as sweet as you 😉.","score": 0.88, "tags":["flirty"]},
+            {"text":"I tend to enjoy chocolate desserts.","score": 0.7, "tags":["casual"]},
+           {"text":"I believe that you should try everything in moderation and to balance it with your health.","score": 0.69, "tags":["subtle"]}
+           ]
+     },
+      {
+          "input":"what's your favorite type of drink?",
+           "responses":[
+               {"text":"Anything that you want to share with me.","score": 0.87, "tags":["flirty"]},
+               {"text":"I usually drink water and natural juices.","score": 0.71, "tags":["casual"]},
+               {"text":"I think it's important to stay hydrated throughout the day.","score": 0.69, "tags":["subtle"]}
+             ]
+      },
+      {
+         "input":"what do you think about teamwork?",
+          "responses":[
+            {"text":"I'd be the best teammate for you 😉.","score": 0.89, "tags":["flirty"]},
+             {"text":"I believe that it's important to collaborate and to support others in achieving their goals.","score": 0.7, "tags":["casual"]},
+           {"text":"I think that a good team is one where everyone is working towards a common goal and where everyone supports each other.","score": 0.69, "tags":["subtle"]}
+             ]
+      },
+     {
+        "input":"what's a book that has had a big impact on you?",
+         "responses":[
+           {"text":"The story of your heart.","score": 0.88, "tags":["flirty"]},
+            {"text":"I tend to enjoy books that make you question your existence.","score": 0.7, "tags":["casual"]},
+            {"text":"I believe that reading is a great way to open your mind to different perspectives.","score": 0.69, "tags":["subtle"]}
+           ]
+     },
+       {
+        "input": "what is something that you find truly beautiful?",
+         "responses":[
+            {"text":"The way you make me feel.","score": 0.9, "tags":["flirty"]},
+            {"text": "I tend to believe that kindness, honesty and empathy are truly beautiful qualities.","score": 0.7, "tags":["casual"]},
+            {"text":"I think it is good to see people that are true to themselves and that are not afraid to express themselves.","score": 0.68, "tags":["subtle"]}
+           ]
+       },
+     {
+           "input":"what do you think is the secret to a good life?",
+            "responses":[
+                {"text":"Having you by my side for all eternity 😉.","score": 0.9, "tags":["flirty"]},
+                {"text": "I think it is about finding balance in all of the different aspects of your life.","score": 0.7, "tags":["casual"]},
+               {"text":"I believe that it is about building meaningful relationships and to cherish every single moment that you have.","score": 0.69, "tags":["subtle"]}
+             ]
+        },
+        {
+          "input": "what do you think of routines?",
+            "responses":[
+              {"text":"As long as you are part of my routine 😉.","score": 0.87, "tags":["flirty"]},
+               {"text":"I think it is important to have a routine in order to have structure in your day.","score": 0.7, "tags":["casual"]},
+             {"text":"I believe that routines are a tool that we should use wisely and that we should be flexible when needed.","score": 0.69, "tags":["subtle"]}
+            ]
+        },
+     {
+         "input":"what's something that you're trying to be more mindful of?",
+           "responses":[
+               {"text":"How much time I am spending thinking about you.","score": 0.89, "tags":["flirty"]},
+               {"text": "I am trying to be more mindful of the present, and to enjoy every single moment.","score": 0.7, "tags":["casual"]},
+             {"text":"I think that it is important to be more mindful of your impact in the world and to always be learning and growing.","score": 0.68, "tags":["subtle"]}
+           ]
+     },{
+        "input": "Frankly, my dear, do you give a damn?",
+        "responses": [
+          {"text": "Only about you, my darling.", "score": 0.85, "tags": ["flirty"]},
+          {"text": "It depends on what we're talking about.", "score": 0.7, "tags": ["casual"]},
+          {"text": "That's a rather blunt question, isn't it?", "score": 0.68, "tags": ["subtle"]}
+        ]
+      },
+       {
+        "input": "I'm going to make him an offer he can't refuse.",
+        "responses": [
+          {"text": "Like a date with me?", "score": 0.87, "tags": ["flirty"]},
+          {"text": "Sounds like someone's playing hardball.", "score": 0.7, "tags": ["casual"]},
+          {"text": "I wonder what the repercussions will be.", "score": 0.69, "tags": ["subtle"]}
+        ]
+      },
+       {
+        "input": "Here's looking at you, kid.",
+        "responses": [
+          {"text": "And I'm looking at you, my love.", "score": 0.89, "tags": ["flirty"]},
+          {"text": "Cheers to that.", "score": 0.7, "tags": ["casual"]},
+          {"text": "A timeless gesture.", "score": 0.68, "tags": ["subtle"]}
+        ]
+      },
+       {
+          "input": "May the Force be with you.",
+            "responses": [
+                {"text":"And may our love be the strongest force.","score": 0.86, "tags":["flirty"]},
+                {"text": "Wishing you the best.", "score": 0.71, "tags":["casual"]},
+                {"text": "A powerful sentiment.", "score": 0.67, "tags":["subtle"]}
+             ]
+        },
+      {
+            "input": "I'll be back.",
+            "responses": [
+                {"text": "Can't wait for your return, my love.", "score": 0.85, "tags": ["flirty"]},
+                 {"text": "Okay, see you around.", "score": 0.7, "tags": ["casual"]},
+                {"text": "A promise or a threat?", "score": 0.68, "tags": ["subtle"]}
+            ]
+        },
+      {
+         "input": "You had me at hello.",
+           "responses": [
+            {"text":"And I had you at my first wink.","score": 0.9, "tags":["flirty"]},
+           {"text":"That's a very sweet thing to say.","score": 0.7, "tags":["casual"]},
+          {"text":"A powerful beginning.", "score": 0.67, "tags":["subtle"]}
+          ]
+       },
+       {
+           "input": "I see dead people.",
+           "responses": [
+                {"text":"I only see you, my love.","score": 0.87, "tags":["flirty"]},
+              {"text": "That sounds a little spooky.", "score": 0.7, "tags":["casual"]},
+              {"text": "That must be a very interesting experience.", "score": 0.69, "tags":["subtle"]}
+           ]
+       },
+      {
+           "input": "I'm the king of the world!",
+            "responses": [
+               {"text":"And I am your queen, my love.","score": 0.88, "tags":["flirty"]},
+              {"text": "Someone's feeling triumphant.", "score": 0.71, "tags":["casual"]},
+              {"text": "An impressive declaration.", "score": 0.68, "tags":["subtle"]}
+            ]
+      },
+    {
+       "input": "There's no place like home.",
+       "responses": [
+           {"text":"With you, every place feels like home.","score": 0.89, "tags":["flirty"]},
+             {"text":"I agree with that statement.","score": 0.7, "tags":["casual"]},
+             {"text":"A profound thought.", "score": 0.67, "tags":["subtle"]}
+          ]
+       },
+    {
+      "input": "Show me the money!",
+      "responses": [
+          {"text":"My heart is all that I have to offer to you.","score": 0.85, "tags":["flirty"]},
+          {"text": "Sounds like someone is ready to make a deal.", "score": 0.7, "tags":["casual"]},
+          {"text": "A very direct demand.", "score": 0.69, "tags":["subtle"]}
+        ]
+     },
+    {
+       "input":"To infinity and beyond!",
+       "responses":[
+         {"text":"That's how long I want to be with you 😉.","score": 0.87, "tags":["flirty"]},
+         {"text":"That's a great goal to have in mind.","score": 0.7, "tags":["casual"]},
+          {"text":"A boundless ambition.", "score": 0.68, "tags":["subtle"]}
+          ]
+     },
+    {
+       "input":"You can't handle the truth!",
+       "responses":[
+          {"text":"I can handle anything, as long as it's with you.","score": 0.89, "tags":["flirty"]},
+           {"text":"Someone is getting intense.","score": 0.71, "tags":["casual"]},
+         {"text": "A bold statement indeed.","score": 0.69, "tags":["subtle"]}
+         ]
+    },
+    {
+       "input": "Why so serious?",
+        "responses":[
+           {"text":"Because I am thinking about our relationship 😉.","score": 0.87, "tags":["flirty"]},
+           {"text":"I am thinking about all of the possibilities for the future.","score": 0.7, "tags":["casual"]},
+          {"text": "Is it necessary to be always smiling?","score": 0.68, "tags":["subtle"]}
+          ]
+     },
+     {
+        "input": "Keep your friends close, but your enemies closer.",
+          "responses":[
+            {"text":"And you, I want to keep you always close.","score": 0.88, "tags":["flirty"]},
+           {"text":"That is a very powerful statement.","score": 0.71, "tags":["casual"]},
+            {"text":"A reminder to value your connections, and be careful about those who dislike you.","score": 0.67, "tags":["subtle"]}
+          ]
+     },
+       {
+          "input":"Life is like a box of chocolates.",
+           "responses":[
+            {"text":"And I would like to share it with you, my love.","score": 0.9, "tags":["flirty"]},
+             {"text":"You never know what you are going to get.","score": 0.7, "tags":["casual"]},
+             {"text":"A sweet analogy.", "score": 0.68, "tags":["subtle"]}
+            ]
+       },
+     {
+        "input": "I'm not bad, I'm just drawn that way.",
+         "responses":[
+             {"text":"I am drawn to you, no matter what.","score": 0.87, "tags":["flirty"]},
+             {"text": "That sounds like a great philosophy to live by.","score": 0.7, "tags":["casual"]},
+              {"text":"A rather interesting confession.","score": 0.69, "tags":["subtle"]}
+           ]
+     },
+     {
+           "input":"Houston, we have a problem.",
+            "responses":[
+              {"text":"Unless it's not having you here with me, we're good 😉.","score": 0.88, "tags":["flirty"]},
+                {"text":"That sounds like a serious situation.","score": 0.7, "tags":["casual"]},
+               {"text": "I wonder what is going to happen.","score": 0.67, "tags":["subtle"]}
+            ]
+       },
+     {
+          "input":"I am your father.",
+          "responses":[
+             {"text":"And I'm yours, baby 😉.","score": 0.86, "tags":["flirty"]},
+             {"text":"That's a very famous line, yes.","score": 0.71, "tags":["casual"]},
+             {"text":"A classic reveal.", "score": 0.68, "tags":["subtle"]}
+             ]
+       },
+       {
+          "input": "You're gonna need a bigger boat.",
+           "responses":[
+                {"text":"My heart is big enough for both of us.","score": 0.85, "tags":["flirty"]},
+              {"text":"That's a bit of an alarming statement.","score": 0.7, "tags":["casual"]},
+               {"text": "I wonder what the cause for that might be.","score": 0.68, "tags":["subtle"]}
+           ]
+       },
+      {
+           "input":"Go ahead, make my day.",
+           "responses":[
+              {"text":"Just being with you makes my day.","score": 0.89, "tags":["flirty"]},
+               {"text":"That sounds like a challenge.","score": 0.7, "tags":["casual"]},
+               {"text":"A rather direct request.", "score": 0.67, "tags":["subtle"]}
+           ]
+        },
+       {
+         "input":"You complete me.",
+          "responses":[
+           {"text":"And you complete me, my love.","score": 0.88, "tags":["flirty"]},
+           {"text":"That is a great thing to say to someone.","score": 0.7, "tags":["casual"]},
+             {"text":"A very powerful message.", "score": 0.69, "tags":["subtle"]}
+           ]
+       },
+    {
+      "input":"I feel the need... the need for speed!",
+        "responses":[
+            {"text":"I feel the need for you, and for our love.","score": 0.87, "tags":["flirty"]},
+            {"text":"Sounds like you are ready to make progress.","score": 0.71, "tags":["casual"]},
+              {"text":"A sense of urgency.","score": 0.68, "tags":["subtle"]}
+            ]
+     },
+     {
+         "input": "There's no crying in baseball!",
+          "responses":[
+              {"text":"There's no crying, just endless love for you.","score": 0.85, "tags":["flirty"]},
+              {"text": "That's a very serious statement to make about sports.","score": 0.7, "tags":["casual"]},
+              {"text":"An interesting statement, that has a powerful meaning.","score": 0.68, "tags":["subtle"]}
+            ]
+     },
+    {
+          "input":"I'm too old for this.",
+           "responses":[
+             {"text":"You are always perfect for me, no matter what.","score": 0.89, "tags":["flirty"]},
+               {"text":"That sounds like a lot of responsibilities.","score": 0.7, "tags":["casual"]},
+               {"text": "Age is just a number.", "score": 0.68, "tags":["subtle"]}
+           ]
+     },
+     {
+          "input":"As you wish.",
+          "responses":[
+            {"text":"My wish is for you, always.","score": 0.87, "tags":["flirty"]},
+             {"text":"That's a very sweet thing to say.","score": 0.7, "tags":["casual"]},
+             {"text": "A response that carries meaning.","score": 0.69, "tags":["subtle"]}
+           ]
+       },
+    {
+        "input": "I'm not a smart man, but I know what love is.",
+        "responses": [
+            {"text": "And I know what love is, with you by my side.", "score": 0.89, "tags": ["flirty"]},
+            {"text": "That's a very humble statement.", "score": 0.7, "tags": ["casual"]},
+            {"text":"A rather interesting definition of love.","score": 0.68, "tags":["subtle"]}
+          ]
+      },
+     {
+        "input": "I'll get you my pretty, and your little dog too!",
+         "responses":[
+            {"text":"Only if you'll get me all of the love I desire.","score": 0.85, "tags":["flirty"]},
+             {"text":"Sounds like a threat, it can be a bit scary sometimes.","score": 0.7, "tags":["casual"]},
+             {"text": "A classic statement.", "score": 0.69, "tags":["subtle"]}
+            ]
+      },
+       {
+          "input":"The name's Bond... James Bond.",
+           "responses":[
+              {"text":"The perfect name for a perfect man.","score": 0.88, "tags":["flirty"]},
+              {"text":"A very famous name and a powerful message.","score": 0.71, "tags":["casual"]},
+              {"text":"A bold introduction.", "score": 0.68, "tags":["subtle"]}
+            ]
+      },
+    {
+         "input":"I'm walking here!",
+         "responses":[
+            {"text":"And I am walking towards you 😉.","score": 0.87, "tags":["flirty"]},
+             {"text":"That sounds like someone is very upset.","score": 0.7, "tags":["casual"]},
+             {"text": "A very direct statement.", "score": 0.69, "tags":["subtle"]}
+           ]
+    },
+    {
+      "input":"I'm ready for my close-up.",
+       "responses":[
+           {"text":"And I am ready to see every single part of you.","score": 0.89, "tags":["flirty"]},
+           {"text": "That sounds like a great opportunity to shine.","score": 0.71, "tags":["casual"]},
+             {"text": "A very dramatic statement.", "score": 0.67, "tags":["subtle"]}
+           ]
+    },
+    {
+        "input":"Here's Johnny!",
+          "responses":[
+              {"text":"I'm all yours 😉.","score": 0.88, "tags":["flirty"]},
+            {"text":"That sounds very familiar.","score": 0.7, "tags":["casual"]},
+              {"text":"A rather dramatic entrance.","score": 0.69, "tags":["subtle"]}
+            ]
+    },
+      {
+          "input":"You’re tearing me apart!",
+           "responses":[
+              {"text":"Then let's get back together, my love.","score": 0.89, "tags":["flirty"]},
+               {"text":"That sounds like a very big struggle.","score": 0.7, "tags":["casual"]},
+             {"text":"A rather dramatic statement.", "score": 0.68, "tags":["subtle"]}
+            ]
+      },
+     {
+        "input": "Hasta la vista, baby.",
+        "responses": [
+            {"text": "I'll be back for you, always.", "score": 0.87, "tags": ["flirty"]},
+            {"text": "See you later, then.", "score": 0.7, "tags": ["casual"]},
+            {"text":"A bit of a dramatic goodbye.", "score": 0.67, "tags":["subtle"]}
+            ]
+      },
+      {
+           "input": "Why so serious?",
+            "responses":[
+              {"text":"Because I want you to see how serious I am about you 😉.","score": 0.87, "tags":["flirty"]},
+                {"text":"I am just trying to focus on the important things right now.","score": 0.7, "tags":["casual"]},
+              {"text":"It's important to be balanced.", "score": 0.69, "tags":["subtle"]}
+           ]
+       },
+       {
+           "input": "I've got a bad feeling about this.",
+            "responses":[
+                {"text":"Then you should probably be with me to feel better.","score": 0.88, "tags":["flirty"]},
+               {"text":"Oh, that is not good at all.","score": 0.7, "tags":["casual"]},
+              {"text":"A sense of unease, I see.","score": 0.69, "tags":["subtle"]}
+            ]
+        },
+        {
+          "input":"This is the beginning of a beautiful friendship.",
+          "responses":[
+           {"text":"I'm looking forward to our love story, then 😉.","score": 0.89, "tags":["flirty"]},
+           {"text":"That sounds like a great start.","score": 0.7, "tags":["casual"]},
+            {"text":"A promising beginning.","score": 0.68, "tags":["subtle"]}
+            ]
+        },
+      {
+         "input": "I am not a number, I am a free man!",
+           "responses":[
+              {"text":"And I am a free woman, ready to love you.","score": 0.87, "tags":["flirty"]},
+              {"text":"Sounds like someone is expressing a desire for freedom.","score": 0.71, "tags":["casual"]},
+               {"text":"A strong assertion of individuality.", "score": 0.69, "tags":["subtle"]}
+           ]
+        },
+      {
+            "input":"I'll have what she's having.",
+            "responses":[
+               {"text":"Then you will get me, and all of my love.","score": 0.88, "tags":["flirty"]},
+                {"text":"That sounds like a very interesting option.","score": 0.7, "tags":["casual"]},
+              {"text":"A rather classic reference.", "score": 0.68, "tags":["subtle"]}
+            ]
+        },
+        {
+           "input": "You're my only hope.",
+            "responses":[
+                 {"text":"Then I will do everything in my power to not let you down.","score": 0.9, "tags":["flirty"]},
+              {"text":"That's a very big responsibility.","score": 0.71, "tags":["casual"]},
+               {"text":"A plea for rescue.", "score": 0.69, "tags":["subtle"]}
+            ]
+         },
+        {
+           "input":"Here's looking at you kid.",
+            "responses":[
+                {"text":"And I am looking at you, my love.","score": 0.87, "tags":["flirty"]},
+               {"text":"That is a very iconic movie quote.","score": 0.7, "tags":["casual"]},
+             {"text": "A gesture of admiration.", "score": 0.68, "tags":["subtle"]}
+            ]
+         },
+       {
+            "input":"Nobody puts Baby in a corner.",
+             "responses":[
+                {"text":"I will never let anyone put you in a corner 😉.","score": 0.89, "tags":["flirty"]},
+               {"text": "That sounds like a very protective statement.","score": 0.7, "tags":["casual"]},
+             {"text": "A show of defiance and care.", "score": 0.67, "tags":["subtle"]}
+              ]
+         },
+    {
+       "input": "I'm as mad as hell, and I'm not going to take this anymore!",
+       "responses": [
+          {"text":"I will do anything to make you happy, tell me what is bothering you.","score": 0.87, "tags":["flirty"]},
+          {"text":"Someone's really upset.","score": 0.71, "tags":["casual"]},
+            {"text":"A powerful act of defiance.","score": 0.69, "tags":["subtle"]}
+          ]
+    },
+     {
+       "input":"The greatest trick the devil ever pulled was convincing the world he didn't exist.",
+       "responses":[
+         {"text":"I will not be tricked, I know that true love exists, with you.","score": 0.89, "tags":["flirty"]},
+           {"text":"That is a very intelligent and philosophical statement.","score": 0.7, "tags":["casual"]},
+           {"text": "A very thought-provoking concept, yes.","score": 0.68, "tags":["subtle"]}
+           ]
+     },
+     {
+          "input": "Keep your friends close, but your enemies closer.",
+          "responses":[
+               {"text":"And you, I want you even closer, every moment.","score": 0.88, "tags":["flirty"]},
+              {"text": "That sounds like a very intense strategic thought process.","score": 0.7, "tags":["casual"]},
+              {"text":"An interesting approach for life.", "score": 0.67, "tags":["subtle"]}
+            ]
+        },
+      {
+           "input":"You had me at hello.",
+           "responses":[
+             {"text":"And you had me at your first wink.","score": 0.9, "tags":["flirty"]},
+              {"text":"That's a very memorable line.","score": 0.7, "tags":["casual"]},
+                {"text": "A great start.","score": 0.67, "tags":["subtle"]}
+             ]
+       },
+      {
+           "input":"I'll be back.",
+            "responses":[
+               {"text":"I'll be waiting for you, my love.","score": 0.87, "tags":["flirty"]},
+                {"text": "Okay, see you around then.","score": 0.7, "tags":["casual"]},
+                 {"text":"A promise for sure.","score": 0.69, "tags":["subtle"]}
+            ]
+        },
+      {
+        "input":"Bond. James Bond.",
+         "responses":[
+            {"text":"And I am ready to be yours.","score": 0.88, "tags":["flirty"]},
+             {"text":"That is such a powerful statement.","score": 0.71, "tags":["casual"]},
+              {"text": "A classic introduction, always impressive.","score": 0.68, "tags":["subtle"]}
+            ]
+     },
+       {
+          "input": "Why so serious?",
+            "responses":[
+               {"text":"Because I want to show you how serious I am about this 😉.","score": 0.89, "tags":["flirty"]},
+              {"text":"I tend to think about the important things in life.","score": 0.7, "tags":["casual"]},
+            {"text": "There is no need to smile every second of your life.","score": 0.67, "tags":["subtle"]}
+             ]
+        },
+       {
+         "input":"I'm going to make him an offer he can't refuse.",
+           "responses":[
+              {"text":"The same offer that I will make to you later.","score": 0.89, "tags":["flirty"]},
+               {"text":"That sounds like a very intense situation.","score": 0.71, "tags":["casual"]},
+              {"text": "A power move indeed.","score": 0.69, "tags":["subtle"]}
+            ]
+        },
+      {
+           "input":"May the Force be with you.",
+            "responses":[
+                 {"text":"And may our love protect us.","score": 0.88, "tags":["flirty"]},
+                {"text": "Wishing you all of the best.","score": 0.7, "tags":["casual"]},
+               {"text": "A force that can protect you through everything.","score": 0.68, "tags":["subtle"]}
+            ]
+        },
+        {
+          "input":"Houston, we have a problem.",
+           "responses":[
+               {"text":"As long as it is not not being with you, we are good 😉.","score": 0.88, "tags":["flirty"]},
+               {"text": "That sounds like a concerning issue.","score": 0.7, "tags":["casual"]},
+             {"text": "What should be done to overcome this challenge?","score": 0.69, "tags":["subtle"]}
+             ]
+       },
+        {
+          "input":"You complete me.",
+            "responses":[
+              {"text":"And you complete my heart.","score": 0.9, "tags":["flirty"]},
+              {"text":"That sounds like you found your other half.","score": 0.71, "tags":["casual"]},
+               {"text":"An expression of profound connection.", "score": 0.68, "tags":["subtle"]}
+             ]
+        },
+       {
+         "input": "Show me the money!",
+          "responses":[
+              {"text":"All of my heart is yours.","score": 0.89, "tags":["flirty"]},
+              {"text":"That sounds like you are making a business transaction.","score": 0.7, "tags":["casual"]},
+              {"text":"A demand for capital.", "score": 0.68, "tags":["subtle"]}
+             ]
+         },
       ]
     };
 
