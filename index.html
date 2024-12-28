@@ -1,38 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHH4PKYJYB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MHH4PKYJYB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MHH4PKYJYB');
+  </script>
 
-  gtag('config', 'G-MHH4PKYJYB');
-</script>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" type="image/svg+xml">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
-    <title>Instant Rizz</title>
+    <title>Instant Rizz - Flirty Text Generator & Conversation AI</title>
+      <meta name="description" content="Get the perfect text for any situation with Instant Rizz! From flirty to subtle responses, we make texting easy and fun. Try our Rizz AI now!">
+       <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+     <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://yourdomain.com",
+      "name": "Instant Rizz",
+      "description": "Get the perfect text for any situation with Instant Rizz! From flirty to subtle responses, we make texting easy and fun.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yourdomain.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Instant Rizz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Instant Rizz is an AI-powered text generator designed to create flirty, subtle, and engaging responses for your conversations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I use the Rizz generator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simply paste or type your message into the input area, select your desired Rizz level, and click 'Get Rizz!'."
+          }
+        },
+         {
+          "@type": "Question",
+          "name": "Can I use Instant Rizz on my mobile device?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Instant Rizz is fully responsive and works seamlessly on all devices."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <header>
-        <span class="logo">⚡️</span>  <!-- Logo Element -->
+        <span class="logo" aria-label="Instant Rizz logo">⚡️</span>
         <h1>Instant Rizz</h1>
     </header>
     <main>
+         <nav aria-label="breadcrumb">
+        
+      </nav>
         <section id="input-area">
-            <textarea placeholder="Paste or type a message here..."></textarea>
+             <label for="text-input" class="visually-hidden">Paste or type your message here</label>
+            <textarea id="text-input" placeholder="Paste or type a message here..." aria-label="Text input area for generating responses"></textarea>
             <button id="generate-btn">Get Rizz!</button>
         </section>
-        <section id="response-area">
-            <!-- Response options will be displayed here -->
+        <section id="response-area" aria-live="polite">
+           <!-- Response options will be displayed here -->
         </section>
         <section id="settings-area">
            <label for="rizz-level">Rizz Level:</label>
-          <select id="rizz-level">
+          <select id="rizz-level" aria-label="Select desired rizz level">
             <option value="casual">Casual</option>
             <option value="subtle">Subtle</option>
             <option value="flirty">Flirty</option>
@@ -40,17 +92,17 @@
           </select>
 
            <div class="dark-mode-toggle">
-             <input type="checkbox" id="dark-mode-checkbox">
+             <input type="checkbox" id="dark-mode-checkbox" aria-label="Toggle dark mode">
                <label for="dark-mode-checkbox">Dark Mode</label>
            </div>
         </section>
-         <section id="feedback-area">
+         <section id="feedback-area" aria-live="polite">
           <!-- Feedback area-->
           </section>
     </main>
     <footer>
         <p>© 2024 Instant Rizz - All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+     <script src="script.js" defer></script>
 </body>
 </html>
