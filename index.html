@@ -74,18 +74,27 @@
         <h1>Instant Rizz</h1>
     </header>
     <main>
-         <nav aria-label="breadcrumb">
-        
+         
       </nav>
+        <section>
+            <h2 aria-label="Try these examples"> Try some examples:</h2>
+            <div id="example-buttons" aria-label="Quick example inputs">
+              <button class="example-button" data-example="what's up">what's up</button>
+              <button class="example-button" data-example="do you have any plans today?">do you have any plans today?</button>
+              <button class="example-button" data-example="how's your day going?">how's your day going?</button>
+              <button class="example-button" data-example="i'm bored">i'm bored</button>
+              <button class="example-button" data-example="Is your name WiFi? Because I'm feeling a connection">Is your name WiFi? Because I'm feeling a connection</button>
+            </div>
+         </section>
         <section id="input-area">
              <label for="text-input" class="visually-hidden">Paste or type your message here</label>
             <textarea id="text-input" placeholder="Paste or type a message here..." aria-label="Text input area for generating responses"></textarea>
             <button id="generate-btn">Get Rizz!</button>
         </section>
-        <section id="response-area" aria-live="polite">
+         <div id="response-area" aria-live="polite">
            <!-- Response options will be displayed here -->
-        </section>
-        <section id="settings-area">
+        </div>
+         <aside id="settings-area">
            <label for="rizz-level">Rizz Level:</label>
           <select id="rizz-level" aria-label="Select desired rizz level">
             <option value="casual">Casual</option>
@@ -98,10 +107,10 @@
              <input type="checkbox" id="dark-mode-checkbox" aria-label="Toggle dark mode">
                <label for="dark-mode-checkbox">Dark Mode</label>
            </div>
-        </section>
-         <section id="feedback-area" aria-live="polite">
+        </aside>
+         <aside id="feedback-area" aria-live="polite">
           <!-- Feedback area-->
-          </section>
+          </aside>
     </main>
     <footer>
         <p>© 2024 Instant Rizz - All rights reserved.</p>
