@@ -23,79 +23,303 @@
          <meta name="keywords" content="flirty text generator, rizz ai, conversation starter, dating app messages, pickup lines, text messages, flirt app, chat ai, ai texting, flirty text responses, best rizz">
         <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" type="image/svg+xml">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <!-- Open Graph / Facebook -->
-     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://instantrizz.com">
-    <meta property="og:title" content="Instant Rizz - Flirty Text Generator & Conversation AI">
-     <meta property="og:description" content="Generate irresistible flirty texts with Instant Rizz! Get personalized AI-powered responses for any conversation. Try it now and make texting fun & easy!">
-    <meta property="og:image" content="https://instantrizz.com/images/instantrizz-og.png">
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://instantrizz.com">
-     <meta property="twitter:title" content="Instant Rizz - Flirty Text Generator & Conversation AI">
-     <meta property="twitter:description" content="Generate irresistible flirty texts with Instant Rizz! Get personalized AI-powered responses for any conversation. Try it now and make texting fun & easy!">
-    <meta property="twitter:image" content="https://instantrizz.com/images/instantrizz-twitter.png">
-       <link rel="alternate" hreflang="en" href="https://instantrizz.com">
-    <!-- JSON-LD structured data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "url": "https://instantrizz.com",
-      "name": "Instant Rizz",
-        "alternateName": "AI Flirty Text Generator",
-        "headline":"Instant Rizz - Flirty Text Generator & Conversation AI",
-      "description": "Generate irresistible flirty texts with Instant Rizz! Get personalized AI-powered responses for any conversation. Try it now and make texting fun & easy!",
-       "keywords": "flirty text generator, rizz ai, conversation starter, dating app messages, pickup lines, text messages, flirt app, chat ai, ai texting, flirty text responses, best rizz",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://instantrizz.com/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Instant Rizz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Instant Rizz is an AI-powered text generator designed to create flirty, subtle, and engaging responses for your conversations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I use the Rizz generator?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Simply paste or type your message into the input area, select your desired Rizz level, and click 'Get Rizz!'."
-          }
-        },
-         {
-          "@type": "Question",
-          "name": "Can I use Instant Rizz on my mobile device?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Instant Rizz is fully responsive and works seamlessly on all devices."
-          }
+
+     <style>
+       body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
-      ]
-    }
-    </script>
+
+        body.dark-mode {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        header {
+            background-color: #677fff;
+            color: white;
+            padding: 1.8rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            transition: background-color 0.3s ease, color 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        header.dark-mode {
+            background-color: #343434;
+            color: #e0e0e0;
+        }
+
+        .logo {
+            font-size: 2.2em;
+            margin-right: 5px;
+            line-height: 1;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            letter-spacing: 1px;
+            line-height: 1;
+            font-size: 1.7em;
+        }
+
+        main {
+            flex: 1;
+            padding: 2rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #input-area, #response-area, #settings-area, #feedback-area {
+            width: 90%;
+            max-width: 600px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        #response-area{
+             transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        #response-area.dark-mode{
+            background-color: #343434;
+        }
+
+        textarea {
+            width: calc(100% - 30px);
+            padding: 14px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            resize: vertical;
+            transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+            font-size: 1em;
+        }
+
+        textarea:focus {
+            border-color: #677fff;
+            outline: none;
+        }
+        textarea.dark-mode {
+            background-color: #343434;
+            color: #e0e0e0;
+            border: 1px solid #666;
+        }
+
+        textarea.dark-mode:focus{
+            border-color: #677fff;
+        }
+
+        button {
+           background-color: #677fff;
+            color: white;
+            padding: 13px 22px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+        button.dark-mode {
+            background-color: #343434;
+        }
+
+        button:hover {
+            background-color: #5467d6;
+            transform: scale(1.05);
+        }
+
+        #response-area .response-option{
+            background-color: white;
+            padding: 14px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+              transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+             user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+        #response-area .response-option.dark-mode{
+            background-color: #343434;
+            color: #e0e0e0;
+            box-shadow: 0 3px 6px rgba(255, 255, 255, 0.1);
+        }
+
+        #response-area .response-option:hover{
+            transform: scale(1.02);
+               box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+             cursor: pointer;
+        }
+        #response-area .response-option.dark-mode:hover{
+             box-shadow: 0 5px 10px rgba(255, 255, 255, 0.15);
+             cursor: pointer;
+        }
+
+        #response-area .response-option button{
+           background-color: #677fff;
+            color: white;
+            border: none;
+            padding: 10px 17px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            font-size: 1em;
+            white-space: nowrap;
+        }
+        #response-area .response-option button.dark-mode{
+              background-color: #343434;
+        }
+
+
+        #response-area .response-option button:hover{
+            background-color: #5467d6;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.2rem;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        footer.dark-mode{
+             background-color: #1a1a1a;
+             color: #e0e0e0;
+        }
+        select{
+           padding: 14px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 12px;
+             transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+             font-size: 1em;
+        }
+        select:focus {
+            border-color: #677fff;
+             outline: none;
+        }
+        select.dark-mode{
+             background-color: #343434;
+            color: #e0e0e0;
+              border: 1px solid #666;
+        }
+        select.dark-mode:focus {
+           border-color: #677fff;
+        }
+
+        @media (max-width: 768px) {
+            main {
+              padding: 1.2rem;
+            }
+             #input-area, #response-area, #settings-area, #feedback-area {
+             width: 95%;
+            }
+        }
+
+        /* Dark Mode toggle styling */
+        .dark-mode-toggle-container {
+            position: absolute; /* Changed to absolute */
+            top: 10px; /* Adjust as needed */
+            right: 10px; /* Adjust as needed */
+            z-index: 100;
+        }
+
+        #darkModeToggle {
+           background: none;
+           border: none;
+           cursor: pointer;
+           font-size: 28px; /* Increased for better visibility */
+           padding: 0;
+           line-height: 1;
+            transition: transform 0.2s ease; /* Added transition for smooth effect */
+        }
+        #darkModeToggle:hover{
+          transform: scale(1.1); /* Added scale on hover */
+        }
+        #settings-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Visually hidden element */
+        .visually-hidden {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          margin: -1px;
+          padding: 0;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+        }
+
+        #example-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .example-button{
+            background-color: #e2e8f0;
+            color: #333;
+            border: none;
+            padding: 8px 14px;
+             border-radius: 8px;
+             cursor: pointer;
+             transition: background-color 0.3s ease, color 0.3s ease;
+            font-size: 1em;
+            white-space: nowrap;
+        }
+         .example-button:hover{
+              background-color: #d3dbe4;
+            transform: scale(1.05);
+
+         }
+        .example-button.dark-mode{
+             background-color: #4a4a4a;
+            color: #e0e0e0;
+        }
+        .example-button.dark-mode:hover{
+            background-color: #555555;
+        }
+
+        h2{
+           font-size: 1.2em;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+     </style>
 </head>
 <body>
+    <div class="dark-mode-toggle-container">
+        <button id="darkModeToggle" aria-label="Toggle Dark Mode">🌑</button>
+    </div>
     <header>
         <span class="logo" aria-label="Instant Rizz logo">⚡️</span>
         <h1>Instant Rizz</h1>
     </header>
     <main>
-         
-      </nav>
         <section>
             <h2 aria-label="Try these examples"> Try some examples:</h2>
             <div id="example-buttons" aria-label="Quick example inputs">
@@ -130,11 +354,6 @@
             <option value="flirty">Flirty</option>
             <option value="bold">Bold</option>
           </select>
-
-           <div class="dark-mode-toggle">
-             <input type="checkbox" id="dark-mode-checkbox" aria-label="Toggle dark mode">
-               <label for="dark-mode-checkbox">Dark Mode</label>
-           </div>
         </aside>
          <aside id="feedback-area" aria-live="polite">
           <!-- Feedback area-->
@@ -144,6 +363,111 @@
     <footer>
         <p>© 2024 Instant Rizz - All rights reserved.</p>
     </footer>
-     <script src="script.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const darkModeToggle = document.getElementById('darkModeToggle');
+            const body = document.body;
+            const exampleButtons = document.querySelectorAll('.example-button');
+            const textInput = document.getElementById('text-input');
+            const generateBtn = document.getElementById('generate-btn');
+            const responseArea = document.getElementById('response-area');
+            const moonEmoji = '🌑'; // Dark mode
+            const sunEmoji = '🔆';    // Light mode
+
+
+            // Function to toggle dark mode
+            const toggleDarkMode = () => {
+                body.classList.toggle('dark-mode');
+                document.querySelectorAll('header, textarea, button, footer, select, .response-option, .example-button')
+                    .forEach(element => element.classList.toggle('dark-mode'));
+                 // Update toggle text
+                darkModeToggle.textContent = body.classList.contains('dark-mode') ? sunEmoji : moonEmoji;
+                // Save mode preference to localStorage
+                localStorage.setItem('darkMode', body.classList.contains('dark-mode') ? 'enabled' : 'disabled');
+            };
+
+            // Check for saved mode preference
+            if (localStorage.getItem('darkMode') === 'enabled') {
+                toggleDarkMode();
+                darkModeToggle.textContent = sunEmoji; // set to sun
+            } else {
+              darkModeToggle.textContent = moonEmoji; // Set initial state to moon
+            }
+             //Event listener for dark mode toggle button
+            darkModeToggle.addEventListener('click', toggleDarkMode);
+
+
+            // Example buttons logic
+            exampleButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    textInput.value = button.dataset.example;
+                });
+            });
+
+
+            generateBtn.addEventListener('click', async () => {
+                const inputText = textInput.value.trim();
+                if (!inputText) {
+                    responseArea.innerHTML = '<p>Please enter a message to generate a response.</p>';
+                    return;
+                }
+                try {
+                    responseArea.innerHTML = '<p>Generating response...</p>';
+                    const rizzLevel = document.getElementById('rizz-level').value;
+                    const response = await fetch("https://instantrizz.com/api/generate", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify({
+                            text: inputText,
+                            rizzLevel: rizzLevel,
+                        }),
+                    });
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    const data = await response.json();
+                    if (data && data.response) {
+                        responseArea.innerHTML = ''; // Clear loading text
+                        const responses = Array.isArray(data.response) ? data.response : [data.response];
+                        responses.forEach(response => {
+                            const responseOption = document.createElement('div');
+                            responseOption.classList.add('response-option');
+                            if (body.classList.contains('dark-mode')) {
+                                responseOption.classList.add('dark-mode');
+                            }
+
+                            const responseText = document.createElement('p');
+                            responseText.textContent = response;
+                            responseOption.appendChild(responseText);
+
+                            const copyButton = document.createElement('button');
+                            copyButton.textContent = 'Copy';
+                            if (body.classList.contains('dark-mode')) {
+                                copyButton.classList.add('dark-mode');
+                            }
+
+                            copyButton.addEventListener('click', () => {
+                                navigator.clipboard.writeText(response);
+                                copyButton.textContent = 'Copied!';
+                                setTimeout(() => {
+                                    copyButton.textContent = 'Copy';
+                                }, 2000);
+                            });
+                            responseOption.appendChild(copyButton);
+                            responseArea.appendChild(responseOption);
+                        });
+                    } else {
+                        responseArea.innerHTML = '<p>Failed to generate a response.</p>';
+                    }
+
+                } catch (error) {
+                    console.error("Failed to fetch response:", error);
+                    responseArea.innerHTML = `<p>Error generating response: ${error.message}</p>`;
+                }
+            });
+        });
+    </script>
 </body>
 </html>
